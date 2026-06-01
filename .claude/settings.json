@@ -1,0 +1,30 @@
+{
+  "enabledPlugins": {
+    "code-simplifier@claude-plugins-official": true,
+    "gopls-lsp@claude-plugins-official": true,
+    "superpowers-extended-cc@superpowers-extended-cc-marketplace": true
+  },
+  "extraKnownMarketplaces": {
+    "superpowers-extended-cc-marketplace": {
+      "source": {
+        "source": "github",
+        "repo": "pcvelz/superpowers"
+      }
+    }
+  },
+  "permissions": {
+    "allow": [
+      "Bash(go *)",
+      "Bash(make *)",
+      "Bash(gofmt *)",
+      "Bash(gofumpt *)",
+      "Bash(golangci-lint *)",
+      "Bash(git *)",
+      "WebSearch(*)",
+      "WebFetch(*)"
+    ],
+    "deny": [
+      "EnterPlanMode"
+    ]
+  }
+}
